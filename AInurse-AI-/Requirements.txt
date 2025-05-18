@@ -1,1 +1,3 @@
-openai
+# AINurse - AI Chat Demo using OpenAI API
+# Copyright © 2025 Sara Ghalib Al-Harbi – All Rights Reserved
+Openai
