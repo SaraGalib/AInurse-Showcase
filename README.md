@@ -44,7 +44,27 @@ Blending empathy, AI, and bold ideas to reshape the future of care.
 > Check the AINurse-Demo folder to see a live AI model built to simulate patient health classification.
 
 ---
+### AINurse AI Chat – OpenAI Integration
 
+This demo shows how AINurse can integrate with OpenAI’s GPT model to simulate a real-time conversation with a smart nursing assistant.
+
+How to run:
+
+1. Make sure you have Python installed.
+2. Set your OpenAI API key as an environment variable:
+
+On macOS/Linux:
+bash
+export OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+On Windows (CMD): 
+set OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+##Then run the app:
+
+pip install -r AINurse-AI-Chat/requirements.txt
+python AINurse-AI-Chat/chat.py
+```
 ## Let's Connect
 
 Email: uin.saragailb@gmail.com  
