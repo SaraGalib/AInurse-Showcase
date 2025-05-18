@@ -2,7 +2,6 @@
 Official public respiratory of AInurse - showcasing the innovation, ID demons and vision behind the project.
 ## AINurse – Smart Patient Monitoring Powered by AI
 
-[`*![AINurse Banner](./background.png)*`](#dda588)
 
 **Note: This repository is a public showcase for judging purposes only. No reuse, copying, or forking is allowed.**
 
