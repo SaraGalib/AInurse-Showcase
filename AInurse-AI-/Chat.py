@@ -2,26 +2,31 @@
 # Copyright © 2025 Sara Ghalib Al-Harbi – All Rights Reserved
 
 import openai
+import os
 
-# Insert your own API key securely (never share it in public repos)
-openai.api_key = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+# Read your API key from an environment variable
+api_key = os.getenv("OPENAI_API_KEY")
 
-print("AINurse AI Chat – powered by OpenAI")
-print("Type your question below (or type 'exit' to quit):")
+if not api_key:
+    print("Error: OPENAI_API_KEY is not set.")
+    exit()
+
+openai.api_key = api_key
+
+print("AINurse Chat – powered by OpenAI")
+print("Ask a question (type 'exit' to quit):")
 
 while True:
     user_input = input("You: ")
-    if user_input.lower() == "exit":
-        print("Goodbye!")
+    if user_input.lower() == 'exit':
         break
 
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "You are an intelligent and compassionate AI nurse assistant."},
+            {"role": "system", "content": "You are an intelligent AI nurse assistant that answers clearly and briefly."},
             {"role": "user", "content": user_input}
         ]
     )
 
-    reply = response['choices'][0]['message']['content']
-    print("AINurse:", reply)
+    print("AINurse:", response['choices'][0]['message']['content'])
