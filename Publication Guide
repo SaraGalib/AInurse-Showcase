@@ -1,0 +1,79 @@
+# 🌟 VitalTrack Health Monitoring System – Publication Guide
+
+This guide outlines the **essential files** and **steps** required to publish your **VitalTrack** health monitoring system prototype on GitHub.
+
+---
+
+## 📁 Core Files
+
+- `package.json` – Main project dependencies and scripts  
+- `package-lock.json` – Dependency lockfile for npm  
+- `tsconfig.json` – TypeScript configuration  
+- `vite.config.ts` – Vite bundler configuration  
+- `tailwind.config.ts` – Tailwind CSS configuration  
+- `postcss.config.js` – PostCSS configuration  
+- `drizzle.config.ts` – Drizzle ORM configuration  
+- `theme.json` – UI theme configuration  
+
+---
+
+## 🧩 Main Application Components
+
+### 🔹 Client-Side Files (`client/`)
+
+- `client/src/App.tsx` – Main React app component  
+- `client/src/main.tsx` – React entry point  
+- `client/src/components/ui/`
+  - `device-history-card.tsx` – Device connection history  
+  - `whoop-info-card.tsx` – WHOOP health data display  
+  - `vital-watch-widget.tsx` – VitalWatch integration  
+- `client/src/pages/patient.tsx` – Patient dashboard page  
+
+---
+
+### 🔸 Server-Side Files (`server/`)
+
+- `server/index.ts` – Main server entry point  
+- `server/routes.ts` – API endpoint definitions  
+- `server/db.ts` – Database connection setup  
+- `server/storage.ts` – Data access layer  
+- `server/auth.ts` – Authentication system  
+- `server/whoop-service.ts` – WHOOP API integration  
+- `server/vital-watch-service.ts` – VitalWatch device integration  
+- `server/vite.ts` – Dev server config  
+
+---
+
+### 🔄 Shared Code (`shared/`)
+
+- `shared/schema.ts` – Database schema and shared types  
+
+---
+
+### 💻 Electron Desktop App (`electron/`)
+
+- `electron/main.js` – Main Electron process  
+- `electron/preload.js` – Preload script  
+- `electron-export/` – Compiled app files  
+  - `vitaltrack-electron.tar.gz` – Archived app  
+  - `zip-electron-project.sh` – Script to compress the app  
+
+---
+
+### 🖼️ Public Assets (`public/`)
+
+- `whoop-logo.svg` – WHOOP branding  
+- Other static assets (images, icons, etc.)  
+
+---
+
+## 🚀 Publishing to GitHub
+
+Run the following commands in your terminal:
+
+```bash
+git init
+git add .
+git commit -m "Initial commit of VitalTrack health monitoring system"
+git remote add origin https://github.com/yourusername/your-repo-name.git
+git push -u origin main
