@@ -1,77 +1,63 @@
-#AInurse-Showcase
-Official public respiratory of AInurse - showcasing the innovation, ID demons and vision behind the project.
-## AINurse – Smart Patient Monitoring Powered by AI
-`
- Welcome to AINurse — a Saudi innovation reimagining patient care through smart AI.
-`
+ # AINurse – Showcase Repository
 
-**Note: This repository is a public showcase for judging purposes only. No reuse, copying, or forking is allowed.**
-
-AINurse is a healthcare innovation that empowers nurses through real-time monitoring of patients' vital signs and mental status using wearable AI technology — all within a secure, offline hospital environment.
+**Official public repository of AINurse – showcasing the innovation, MVP demos, and the visionary story behind the project.**
 
 ---
 
-## Meet the Founder
+## 🧠 AINurse – Smart Patient Monitoring Powered by Groq AI & LLM 
 
-Sara Ghalib Al-Harbi (Sara Galib)  
+> **Welcome to AINurse** — a Saudi innovation reimagining patient care through intelligent, secure, real-time support for medical staff.
+
+⚠️ _Note: This repository is a public **showcase for judging purposes only**. No reuse, copying, or forking is permitted._
+
+---
+
+## 👩‍⚕️ What is AINurse?
+
+AINurse is a healthcare innovation designed to:
+- 📊 **Track vital signs + psychological data** via AI-powered wearable sensors  
+- 🚨 **Rank patient urgency** using real-time AI triage logic   
+- ❤️ **Empower nurses** to focus on what matters: direct patient care  
+
+---
+
+## 👩‍💼 Meet the Founder
+
+**Sara Ghalib Al-Harbi (Sara Galib)**  
 Saudi Innovator | Founder of AINurse | National Hackathon Winner  
-Blending empathy, AI, and bold ideas to reshape the future of care.
+💡 Blending empathy, AI, and bold ideas to reshape the future of care.
 
 ---
 
-## What AINurse Does
+## 👥 Team AINurse
 
-- Tracks vital signs + psychological data with a smart wearable 
-- Ranks patient urgency using real-time AI analysis  
-- Runs offline inside hospital networks — **no internet , no Panic**
-- Frees up nurses to focus on what truly matters: care
+**Sara Ghalib Al-Harbi** – Founder & Project Lead  
+Led the concept design, AI logic architecture, and overall system integration. Responsible for technical vision, pitch development, and innovation strategy.
 
----
+**Faris** – Backend Developer  
+Handled secure API development and AI integration for real-time health data processing.
 
-## Project Structure
-
-| Folder         | What’s inside |
-|----------------|----------------|
-| /AINurse-Demo | A simple AI health model in Python |
-| /Media        | Device mockups and visuals |
-| /Pitch        | Presentation deck and brochure |
-| /About-Me     | Founder profile and story |
-| /LICENSE      | Usage rights (All rights reserved) |
+**Amirah** – Front-End Developer & UX Designer  
+Designed the user interface and crafted a seamless user experience tailored for nurses and hospital staff.
 
 ---
 
-## Live Preview
+## 🗂️ Project Structure
 
-> Check the AINurse-Demo folder to see a live AI model built to simulate patient health classification.
-
----
-### AINurse AI Chat – OpenAI Integration
-
-This demo shows how AINurse can integrate with OpenAI’s GPT model to simulate a real-time conversation with a smart nursing assistant.
-
-How to run:
-
-1. Make sure you have Python installed.
-2. Set your OpenAI API key as an environment variable:
-
-On macOS/Linux:
-bash
-export OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-On Windows (CMD): 
-set OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-##Then run the app:
-
-pip install -r AINurse-AI-Chat/requirements.txt
-python AINurse-AI-Chat/chat.py
-```
-## Let's Connect
-
-Email: uin.saragailb@gmail.com  
-LinkedIn: [Sasha Galib](https://www.linkedin.com/in/sasha-galib-1079)  
+| Folder         | Description                            |
+|----------------|----------------------------------------|
+| `AINurse-Demo` | Simple AI health classifier in Python  |
+| `Media`        | Device mockups and visuals             |
+| `Pitch`        | Slides, brochures, investor decks      |
+| `About-Me`     | Founder’s story and mission            |
+| `LICENSE`      | All rights reserved                    |
 
 ---
+## 🧪 Live Preview: AINurse Demo
 
-© 2025 – Sara Ghalib Al-Harbi  
-All Rights Reserved
+> Try the live AI classification demo through the following link:  
+👉 [Click here to view the demo] ([[https://your-demo-link.com](https://medical-monitor-1-uinsaragailb.replit.app/auth)]
+
+This model simulates real-time patient health risk detection using vital signs and psychological indicators.
+
+> *(Note: Demo is hosted externally and optimized for preview purposes.)*
